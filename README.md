@@ -20,7 +20,8 @@
 | Date | Milestone | Reflection |
 | ------ | ------ | ------ |
 | 4/21/23 | Finish Onshape Document | We suceeded in finishing the bulk of the onshape work with relative ease |
-| 4/28/23 | Finish Laser cutting, 3d printing and assembling | We suceeded on printing and cuting the parts |
+| 4/28/23 | Finish Laser cutting, 3d printing and assembling | We suceeded on printing and cutting the parts, we also assembled the acryllic box|
+|4/5
 
 ## Onshape Design
 
