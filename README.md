@@ -1,7 +1,13 @@
 # PIDwheel
-
+## Table of Contents
+* [Planning](#planning)
+* [Onshape Design](#onshape-design)
+* [Code and Wiring](#code-and-wiring)
+* [Photos and Videos](#photos-and-videos)
+* [Construction](#construction)
+* [Reflection](#reflection)
 ## Planning
-
+### Sketches
 ### Materials Used
 
 + Acrylic
@@ -21,18 +27,29 @@
 | ------ | ------ | ------ |
 | 4/21/23 | Finish Onshape Document | We suceeded in finishing the bulk of the onshape work with relative ease |
 | 4/28/23 | Finish Laser cutting, 3d printing and assembling | We suceeded on printing and cutting the parts, we also assembled the acryllic box|
-|4/5
+| 5/4/23 | Test motor and other components with our wiring | We had issues with our wheel that delayed the testing |
+| 5/15/23 | Implemente code and start testing | We competed the code and got it working but we were behind schedule |
+| 5/28/23 | Get project working with PID | PID was never fully and correctly incorperated |
+| 6/2/23 | Final project done with documentation | Project and documentation was completed by the due date |
+
 
 ## Onshape Design
+### Goal
+### Images
+| Exterior View | Interior View |
+| ----- | ------ |
+| <img src="https://github.com/vmanka25/PIDwheel/blob/main/Media/Assembly%202.png?raw=true" alt="wiring2" style="width:400px;"> | <img src="https://github.com/vmanka25/PIDwheel/blob/main/Media/Assembly%202%20(1).png?raw=true" alt="wiring2" style="width:400px;"> |
 
+### Evidence
 [Onshape Link](https://cvilleschools.onshape.com/documents/e3e9160c74c2f05d611e2350/w/8f77f1dc3328ca2505c3c685/e/943fa50f182a6ab5cfa60442?renderMode=0&uiState=64515a94813904144c09a155)
+### Reflection
 
 
-## Wiring Diagram
 
-![PidWiring](https://user-images.githubusercontent.com/71350243/236315095-ca4b90ab-fd54-43c9-aba5-c2049de8e78e.png)
 
-## Code
+## Code and Wiring
+### Goal
+### Code
 ``` python
 #Vincent and Zachary 5/15/2023
 #Wheel code no PID
@@ -85,13 +102,13 @@ while True:
         print(lasttime, "hello")
             
 ```
-    
-## Photos
+### Wiring Diagram
+<img src="https://user-images.githubusercontent.com/71350243/236315095-ca4b90ab-fd54-43c9-aba5-c2049de8e78e.png" alt="wiring2" style="width:318px;">
 
-## Video
+### Reflection
 
+## Photos and Videos
 
-
-## Obstacles
+## Construction
 
 ## Reflection
