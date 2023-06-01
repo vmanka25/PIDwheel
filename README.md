@@ -8,6 +8,9 @@
 * [Reflection](#reflection)
 ## Planning
 ### Sketches
+
+![image](https://github.com/vmanka25/PIDwheel/assets/71350243/eb5f7142-6a74-4f68-a9e0-c87e311d4c47)
+
 ### Materials Used
 
 + Acrylic
