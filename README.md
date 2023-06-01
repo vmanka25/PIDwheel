@@ -32,6 +32,8 @@
 | 5/28/23 | Get project working with PID | PID was never fully and correctly incorperated |
 | 6/2/23 | Final project done with documentation | Project and documentation was completed by the due date |
 
+| **Potential Obstacles** | **Possible Solution** |
+| ------ | ------ |
 
 ## Onshape Design
 ### Goal
