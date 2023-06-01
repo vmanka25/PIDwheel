@@ -113,9 +113,10 @@ while True:
 <img src="https://user-images.githubusercontent.com/71350243/236315095-ca4b90ab-fd54-43c9-aba5-c2049de8e78e.png" alt="wiring2" style="width:318px;">
 
 ### Reflection
-| Code Reflection written by Zach | Wiring Reflection |
+| Code Reflection written by Zach | Wiring Reflection written by Vincent |
 | ------ | ------ |
-| I never had enough time to get the code with PID working so our code does not use PID in any way. Despite this I still learned a lot of new thing and have become very comfortable with python. Here are some things I learned while writing this code:
+| I never had enough time to get the code with PID working so our code does not use PID in any way. Despite this I still learned a lot of new thing and have become very comfortable with python. Here are some things I learned while writing this code:| The wiring wasn't too hard just tedious and I got a lot better at wiring.|
+| code stuff| I learned how to wire on a mini breadboard
 
 ## Photos and Videos
 
