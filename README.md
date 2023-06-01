@@ -106,7 +106,10 @@ while True:
 <img src="https://user-images.githubusercontent.com/71350243/236315095-ca4b90ab-fd54-43c9-aba5-c2049de8e78e.png" alt="wiring2" style="width:318px;">
 
 ### Reflection
-
+| Code Reflection written by Zach | Wiring Reflection |
+| ------ | ------ |
+| I never had enough time to get the code with PID working so our code does not use PID in any way. Despite this I still learned a lot of new thing and have become very comfortable with python. Here are some things I learned while writing this code:
+* Writing in pseudo code first can help you organize your thoughts and makes sure each part of you code is doing what you want. I initially started writing the code essentially "blind" and didn't know where to start. Using pseudo code allowed me to organize all of my statements and it made writing the code much easier. I also learned new syntax for example: I used a list so I could calculate averge RPM over the entire time the wheel is spinning.  
 ## Photos and Videos
 
 ## Construction
