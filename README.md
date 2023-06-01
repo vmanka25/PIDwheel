@@ -12,14 +12,14 @@
 
 + Acrylic
 + PLA
-+ DC motor
-+ Arduino
-+ Photointerrupter
-+ Potentiometer
++ 1 DC motor
++ 1 Metro M4
++ 1 Photointerrupter
++ 1 Potentiometer
 + LED
-+ 9v Battery
-+ LCD Backpack
-+ Switch
++ 1 9v Battery
++ 1 LCD 
++ 1 Switch
 
 ### Milestones
 
@@ -29,14 +29,16 @@
 | 4/28/23 | Finish Laser cutting, 3d printing and assembling | We suceeded on printing and cutting the parts, we also assembled the acryllic box|
 | 5/4/23 | Test motor and other components with our wiring | We had issues with our wheel that delayed the testing |
 | 5/15/23 | Implemente code and start testing | We competed the code and got it working but we were behind schedule |
-| 5/28/23 | Get project working with PID | PID was never fully and correctly incorperated |
+| 5/28/23 | Get project working with PID | We were successful in getting the project working |
 | 6/2/23 | Final project done with documentation | Project and documentation was completed by the due date |
 
 | **Potential Obstacles** | **Possible Solution** |
 | ------ | ------ |
+| How to mount the acrylic wheel onto dc motor shaft | make a 3d printed braket connecting the acrylic wheel to the moor shaft |
 
 ## Onshape Design
-### Goal
+### Goal 
+The goal of our onshape design was to create a box that would hold a metro, battery pack, lcd, photinterupter, potentiometer, led and switch. Our insperation was an old record player so we mounted the wheel on the top of a short box. 
 ### Images
 | Exterior View | Interior View |
 | ----- | ------ |
@@ -54,7 +56,7 @@
 ### Code
 ``` python
 #Vincent and Zachary 5/15/2023
-#Wheel code no PID
+#Wheel code 
 
 import board
 import time
@@ -111,7 +113,7 @@ while True:
 | Code Reflection written by Zach | Wiring Reflection |
 | ------ | ------ |
 | I never had enough time to get the code with PID working so our code does not use PID in any way. Despite this I still learned a lot of new thing and have become very comfortable with python. Here are some things I learned while writing this code:
-* Writing in pseudo code first can help you organize your thoughts and makes sure each part of you code is doing what you want. I initially started writing the code essentially "blind" and didn't know where to start. Using pseudo code allowed me to organize all of my statements and it made writing the code much easier. I also learned new syntax for example: I used a list so I could calculate averge RPM over the entire time the wheel is spinning.  
+
 ## Photos and Videos
 
 ## Construction
