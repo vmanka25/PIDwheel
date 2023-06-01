@@ -121,6 +121,6 @@ while True:
 
 ## Construction
 
-We had some issues in the construction of our contraption. The first issue we had is that the divider for our box had tabs that didn't fit so we had to sand down the tabs. Our biggest issue was that our wheel spun with a wobble. We attempted to fix this many times with 3d printing but we designed the 3d printed part with tiny spokes that snapped instantly, we tried hotgluing the laser cut wheel to the 3d printed part but that also failed. we ended up laser cutting a washer that we hotglued and clamped to the wheel. The wheel still wobbles but its good anough and doesn't rub on the potentiometer. 
+We had some issues in the construction of our contraption. The first issue we had is that the divider for our box had tabs that didn't fit so we had to sand down the tabs. Our biggest issue was that our wheel spun with a wobble. We attempted to fix this many times with 3d printing but we designed the 3d printed part with tiny spokes that snapped instantly, we tried hotgluing the laser cut wheel to the 3d printed part but that also failed. we ended up laser cutting a washer that we hotglued and clamped to the wheel. The wheel still wobbles but its good anough and doesn't rub on the potentiometer. another problem we had with the wheel made with see through blue accrylic that had spokes which would hit the photointeruptor. We ended up designing a wheel whith a circular edge out of black acryllic which solved our issues.
 
 ## Reflection
