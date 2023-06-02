@@ -75,9 +75,9 @@ from digitalio import DigitalInOut, Direction, Pull
 from PID_CPY import PID #Imports PID
 from simple_pid import PID
 
-pid = PID(1, 0.1, 0.05, setpoint=1) #PID setup
+pid = PID(2.0, 0.3, 0.1, setpoint=1) #PID setup
 pid.output_limits = (0, 65535)
-pid.sample_time = 0.01
+pid.sample_time = 0.05
 pid.tunings = (2.0, 0.3, 0.1)
 
 last_photoI = None #lines 11-13 start states for variables
