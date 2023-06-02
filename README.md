@@ -136,8 +136,13 @@ while True:
 
 ## Photos and Videos
 
+| ![IMG_3673](https://github.com/vmanka25/PIDwheel/assets/71350243/e19fd326-9d27-43d9-aee7-a17cd31ffafe) | ![IMG_3674](https://github.com/vmanka25/PIDwheel/assets/71350243/a611eca5-e381-403d-9c7e-5cafa228dbd8) | 
+| ------ | ------ |
+| ![IMG_3675](https://github.com/vmanka25/PIDwheel/assets/71350243/e3ec71fe-c350-44a8-8b8e-59e649681ce6) | ![PIDBox](https://github.com/vmanka25/PIDwheel/assets/71350243/379d1565-033a-4d63-a4d6-24e259c003b0) |
+
+
 ## Construction
 
-We had some issues in the construction of our contraption. The first issue we had is that the divider for our box had tabs that didn't fit so we had to sand down the tabs. Our biggest issue was that our wheel spun with a wobble. We attempted to fix this many times with 3d printing but we designed the 3d printed part with tiny spokes that snapped instantly, we tried hotgluing the laser cut wheel to the 3d printed part but that also failed. we ended up laser cutting a washer that we hotglued and clamped to the wheel. The wheel still wobbles but its good anough and doesn't rub on the potentiometer. another problem we had with the wheel made with see through blue accrylic that had spokes which would hit the photointeruptor. We ended up designing a wheel whith a circular edge out of black acryllic which solved our issues.
+We had some issues in the construction of our contraption. The first issue we had is that the divider for our box had tabs that didn't fit so we had to sand down the tabs. Our biggest issue was that our wheel spun with a wobble. We attempted to fix this many times with 3d printing parts and using hotglue. our final solution was a laser cut washer we glued to the wheel to keep it level. we made some other mistakes like designing the wheel with spokes that hit the photointeruptor. we fixed this problem by cutting a wheel with a smooth perimeter. We also made the wheel clear which wouldn't have worked with the photointeruptor. we fixed that by making the wheel black.
 
 ## Reflection
