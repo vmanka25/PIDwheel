@@ -148,4 +148,4 @@ We had some issues in the construction of our contraption. The first issue we ha
 
 ## Reflection
 
-
+Overall this project wasn't too hard and we learned a lot. designing our box and wheel on onshape was by far the easiest part. We made some mistakes with the design of the wheel and some of the fittings on the box but we fixed them. assembling the box was also pretty easy with the exception of our wheel which took many attempts to fix its wobble and other issues. Coding was probably the most difficult part of this project but zach learned alot and wrote code that works. even though we didn't have enough time to tweak the values of our PID we think it was a sucess. In the end we built a motor whose speed was controlled using a potentiometer and PID.
