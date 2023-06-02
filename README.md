@@ -137,9 +137,8 @@ while True:
 
 ## Photos and Videos
 
-| ![IMG_3673](https://github.com/vmanka25/PIDwheel/assets/71350243/e19fd326-9d27-43d9-aee7-a17cd31ffafe) | ![IMG_3674](https://github.com/vmanka25/PIDwheel/assets/71350243/a611eca5-e381-403d-9c7e-5cafa228dbd8) | 
-| ------ | ------ |
-| ![IMG_3675](https://github.com/vmanka25/PIDwheel/assets/71350243/e3ec71fe-c350-44a8-8b8e-59e649681ce6) | ![PIDBox](https://github.com/vmanka25/PIDwheel/assets/71350243/379d1565-033a-4d63-a4d6-24e259c003b0) |
+![IMG_3673](https://github.com/vmanka25/PIDwheel/assets/71350243/e19fd326-9d27-43d9-aee7-a17cd31ffafe)
+![PIDBox](https://github.com/vmanka25/PIDwheel/assets/71350243/379d1565-033a-4d63-a4d6-24e259c003b0)
 
 
 ## Construction
