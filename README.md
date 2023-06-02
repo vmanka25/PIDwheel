@@ -56,6 +56,7 @@ The goal of our onshape design was to create a box that would hold a metro, batt
 
 ## Code and Wiring
 ### Goal
+**Code:** The code is written to first use a potentiometer to control the speed of a dc motor. Then a photointerupter tracks when the each hole in the wheel passes by looking if the state changes. When the state changes the time function is called and logged as time1. When the state changes again a second time is logged and the two are subtracted giving us deltatime. Then using a simple conversion we can calculate RPM. A list was added for fun to add some creativity to the project. Each time an RPM value is calculated it is added to the list. The sum of the list is taken and divided by the length of the list. This calculates average RPM.
 ### Code
 ``` python
 #Vincent and Zachary 5/15/2023
@@ -68,6 +69,14 @@ import simpleio
 from lcd.lcd import LCD
 from lcd.i2c_pcf8574_interface import I2CPCF8574Interface
 from digitalio import DigitalInOut, Direction, Pull
+from PID_CPY import PID #Imports PID
+from simple_pid import PID
+
+pid = PID(1, 0.1, 0.05, setpoint=1) #PID setup
+pid.output_limits = (0, 65535)
+pid.sample_time = 0.01
+pid.tunings = (1.0, 0.2, 0.4)
+
 last_photoI = None #lines 11-13 start states for variables
 current_photoI = None
 lasttime=None
@@ -80,14 +89,14 @@ lcd.print("Motor Starting")
 rpm_list=[] #creates a list for all rpm values
 truetime=time.monotonic()
 while True:
-    
+    pid.setpoint = pot.value #target PID is set to the potentiometer value
+    motor.value = pid(pot.value) 
     print(simpleio.map_range(pot.value, 96, 65520, 0, 65535)) #maps the motor value to the pot value
-    motor.value = int(simpleio.map_range(pot.value, 96, 65520, 0, 65535)) 
     current_photoI = photoI.value #reads photo interupter value
     print(truetime, "Hi")
     print(pot.value, current_photoI, last_photoI)
     time.sleep(.01)
-    if(last_photoI == True and current_photoI == False):
+    if(last_photoI == True and current_photoI == False): #Important to remember to use == and not = here.
         time1=time.monotonic() #reads out time in fractional seconds
         print(time1)
         if(lasttime != None): #checks to see if this is the first state change of the photointerupter
@@ -104,9 +113,10 @@ while True:
             lcd.set_cursor_pos(1, 0)
             lcd.print("AvgRPM: {:.3f}".format(average_rpm))
             print(average_rpm)
-        last_photoI=current_photoI
+     last_photoI=current_photoI #changes the photoI states
         lasttime=time1 #makes the time1 the new lasttime
         print(lasttime, "hello")
+            
             
 ```
 ### Wiring Diagram
@@ -115,8 +125,8 @@ while True:
 ### Reflection
 | Code Reflection written by Zach | Wiring Reflection written by Vincent |
 | ------ | ------ |
-| I never had enough time to get the code with PID working so our code does not use PID in any way. Despite this I still learned a lot of new thing and have become very comfortable with python. Here are some things I learned while writing this code:| The wiring wasn't too hard just tedious and I got a lot better at wiring.|
-| code stuff| I learned how to wire on a mini breadboard
+| Writing the code was something I was not looking forward to for this project. Not that I would not be able to, but coding is not always the most interesting to me. Writing this code was far different. It was so much fun and it was the most I had ever learned about a coding language in one project. There were some parts that were rough, but I learned valuable lessons along the way. The first is the usefullness of writing out your program in pseudo code. This helped me organize my thoughts and keep the order of each part straight. Next, I learned how important it is to check your indentations. This code has several embedded if statements and initially, I had things in embedded in if statements that changed the variable to allow me to enter that if statement. This made it impossible to enter the statement and my code was rendered useless. Finally, I learned several minor things, like how code libraries work when implementing the PID and list, and append for calculating average RPM. In conclusion, although we did not have time to fully tweak the PID values the code of this project was very enjoyable and taught me so much. 
+ | I learned how to wire on a mini breadboard |
 
 ## Photos and Videos
 
