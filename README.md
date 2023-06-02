@@ -36,27 +36,6 @@ To create a box that utalizes PID to control the speed of a motor using and pote
 | 5/15/23 | Implemente code and start testing | We competed the code and got it working but we were behind schedule |
 | 5/28/23 | Get project working with PID | We were successful in getting the project working |
 | 6/2/23 | Final project done with documentation | Project and documentation was completed by the due date |
-
-| **Potential Obstacles** | **Possible Solution** |
-| ------ | ------ |
-| How to mount the acrylic wheel onto dc motor shaft | make a 3d printed braket connecting the acrylic wheel to the motor shaft |
-| We dont know how to use PID | Use google and other resources to learn |
-| How to keep the wheel level to prevent collision with the photointerupter | Design multiple wheel prototypes and see which one works best. |
-## Onshape Design
-### Goal 
-The goal of our onshape design was to create a box that would hold a metro, battery pack, lcd, photinterupter, potentiometer, led and switch. Our inspiration was an old record player so we mounted the wheel on the top of a short box. We first made a box and use the friction fit tool to get the correct amount of offset. We then added out parts into an assembley and by editing in context created the holes and mounts for the battery, led, switch, photointerupter, potentiometer, LCD, and motor. 
-### Images
-| Exterior View | Interior View |
-| ----- | ------ |
-| <img src="https://github.com/vmanka25/PIDwheel/blob/main/Media/Assembly%202.png?raw=true" alt="wiring2" style="width:400px;"> | <img src="https://github.com/vmanka25/PIDwheel/blob/main/Media/Assembly%202%20(1).png?raw=true" alt="wiring2" style="width:400px;"> |
-
-### Evidence
-[Onshape Link](https://cvilleschools.onshape.com/documents/e3e9160c74c2f05d611e2350/w/8f77f1dc3328ca2505c3c685/e/943fa50f182a6ab5cfa60442?renderMode=0&uiState=64515a94813904144c09a155)
-### Reflection
-The design of the box was very easy because we both had extensive experience with onshape and were good at it. We finished the main design of the box multiple days ahead of schedule. The one oversight we had with our design was not making the wheel solid with cut out holes. Initially we added teeth to the outside of the wheel to interupt the photointerupter. This was unfortunate because we did not realize our mistake until after we tested the wheel and saw that it kept cliping the photointerupter. A more thorough review of possible issues with our design would have fixed this problem. It also teaches us the importance of prototypes. If we had considered multiple wheel design at first we would have had alternate solutions that might have been better. Other than that the onshape design went very well. The box was the perfect size and looked very good. 
-
-
-
 ## Code and Wiring
 ### Goal
 **Code:** The code is written to first use a potentiometer to control the speed of a dc motor. Then a photointerupter tracks when the each hole in the wheel passes by looking if the state changes. When the state changes the time function is called and logged as time1. When the state changes again a second time is logged and the two are subtracted giving us deltatime. Then using a simple conversion we can calculate RPM. A list was added for fun to add some creativity to the project. Each time an RPM value is calculated it is added to the list. The sum of the list is taken and divided by the length of the list. This calculates average RPM.
@@ -134,12 +113,29 @@ while True:
 | ------ | ------ |
 | Writing the code was something I was not looking forward to for this project. Not that I would not be able to, but coding is not always the most interesting to me. Writing this code was far different. It was so much fun and it was the most I had ever learned about a coding language in one project. There were some parts that were rough, but I learned valuable lessons along the way. The first is the usefullness of writing out your program in pseudo code. This helped me organize my thoughts and keep the order of each part straight. Next, I learned how important it is to check your indentations. This code has several embedded if statements and initially, I had things in embedded in if statements that changed the variable to allow me to enter that if statement. This made it impossible to enter the statement and my code was rendered useless. Finally, I learned several minor things, like how code libraries work when implementing the PID and list, and append for calculating average RPM. In conclusion, although we did not have time to fully tweak the PID values the code of this project was very enjoyable and taught me so much. |The wiring wasn’t too hard, just tedious. To wire everything I just combined all of the wirings from my previous projects. I learned a lot too, like how to wire on a mini breadboard. I also learned that you can use a switch to turn off the ground from multiple batteries, which creates one switch that can turn off multiple separate batteries. The hardest part was keeping things orderly but I got it done. |
 
+| **Potential Obstacles** | **Possible Solution** |
+| ------ | ------ |
+| How to mount the acrylic wheel onto dc motor shaft | make a 3d printed braket connecting the acrylic wheel to the motor shaft |
+| We dont know how to use PID | Use google and other resources to learn |
+| How to keep the wheel level to prevent collision with the photointerupter | Design multiple wheel prototypes and see which one works best. |
+## Onshape Design
+### Goal 
+The goal of our onshape design was to create a box that would hold a metro, battery pack, lcd, photinterupter, potentiometer, led and switch. Our inspiration was an old record player so we mounted the wheel on the top of a short box. We first made a box and use the friction fit tool to get the correct amount of offset. We then added out parts into an assembley and by editing in context created the holes and mounts for the battery, led, switch, photointerupter, potentiometer, LCD, and motor. 
+
+### Evidence
+[Onshape Link](https://cvilleschools.onshape.com/documents/e3e9160c74c2f05d611e2350/w/8f77f1dc3328ca2505c3c685/e/943fa50f182a6ab5cfa60442?renderMode=0&uiState=64515a94813904144c09a155)
+### Reflection
+The design of the box was very easy because we both had extensive experience with onshape and were good at it. We finished the main design of the box multiple days ahead of schedule. The one oversight we had with our design was not making the wheel solid with cut out holes. Initially we added teeth to the outside of the wheel to interupt the photointerupter. This was unfortunate because we did not realize our mistake until after we tested the wheel and saw that it kept cliping the photointerupter. A more thorough review of possible issues with our design would have fixed this problem. It also teaches us the importance of prototypes. If we had considered multiple wheel design at first we would have had alternate solutions that might have been better. Other than that the onshape design went very well. The box was the perfect size and looked very good.
+
+### Images
+| Exterior View | Interior View |
+| ----- | ------ |
+| <img src="https://github.com/vmanka25/PIDwheel/blob/main/Media/Assembly%202.png?raw=true" alt="wiring2" style="width:400px;"> | <img src="https://github.com/vmanka25/PIDwheel/blob/main/Media/Assembly%202%20(1).png?raw=true" alt="wiring2" style="width:400px;"> |
 
 ## Photos and Videos
 
 ![IMG_3673](https://github.com/vmanka25/PIDwheel/assets/71350243/e19fd326-9d27-43d9-aee7-a17cd31ffafe)
 ![PIDBox](https://github.com/vmanka25/PIDwheel/assets/71350243/379d1565-033a-4d63-a4d6-24e259c003b0)
-
 
 ## Construction
 
