@@ -125,6 +125,10 @@ while True:
 ### Wiring Diagram
 <img src="https://user-images.githubusercontent.com/71350243/236315095-ca4b90ab-fd54-43c9-aba5-c2049de8e78e.png" alt="wiring2" style="width:318px;">
 
+### Code Brainstorming
+
+<img src="https://github.com/vmanka25/PIDwheel/blob/main/Media/20230601_214704.jpg?raw=true" alt="wiring2" style="width:318px;">
+
 ### Reflection
 | Code Reflection written by Zach | Wiring Reflection written by Vincent |
 | ------ | ------ |
