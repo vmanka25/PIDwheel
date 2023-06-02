@@ -7,9 +7,11 @@
 * [Construction](#construction)
 * [Reflection](#reflection)
 ## Planning
+### Objective 
+To create a box that utalizes PID to control the speed of a motor using and potentiometer. A photointerupter will also be used to calculate the speed of the wheel which will be displayed on an LCD. 
 ### Sketches
 
-![image](https://github.com/vmanka25/PIDwheel/assets/71350243/eb5f7142-6a74-4f68-a9e0-c87e311d4c47)
+<img src="https://github.com/vmanka25/PIDwheel/assets/71350243/eb5f7142-6a74-4f68-a9e0-c87e311d4c47" alt="wiring2" style="width:400px;">
 
 ### Materials Used
 
@@ -37,11 +39,12 @@
 
 | **Potential Obstacles** | **Possible Solution** |
 | ------ | ------ |
-| How to mount the acrylic wheel onto dc motor shaft | make a 3d printed braket connecting the acrylic wheel to the moor shaft |
-
+| How to mount the acrylic wheel onto dc motor shaft | make a 3d printed braket connecting the acrylic wheel to the motor shaft |
+| We dont know how to use PID | Use google and other resources to learn |
+| How to keep the wheel level to prevent collision with the photointerupter | Design multiple wheel prototypes and see which one works best. |
 ## Onshape Design
 ### Goal 
-The goal of our onshape design was to create a box that would hold a metro, battery pack, lcd, photinterupter, potentiometer, led and switch. Our insperation was an old record player so we mounted the wheel on the top of a short box. 
+The goal of our onshape design was to create a box that would hold a metro, battery pack, lcd, photinterupter, potentiometer, led and switch. Our inspiration was an old record player so we mounted the wheel on the top of a short box. We first made a box and use the friction fit tool to get the correct amount of offset. We then added out parts into an assembley and by editing in context created the holes and mounts for the battery, led, switch, photointerupter, potentiometer, LCD, and motor. 
 ### Images
 | Exterior View | Interior View |
 | ----- | ------ |
@@ -50,7 +53,7 @@ The goal of our onshape design was to create a box that would hold a metro, batt
 ### Evidence
 [Onshape Link](https://cvilleschools.onshape.com/documents/e3e9160c74c2f05d611e2350/w/8f77f1dc3328ca2505c3c685/e/943fa50f182a6ab5cfa60442?renderMode=0&uiState=64515a94813904144c09a155)
 ### Reflection
-
+The design of the box was very easy because we both had extensive experience with onshape and were good at it. We finished the main design of the box multiple days ahead of schedule. The one oversight we had with our design was not making the wheel solid with cut out holes. Initially we added teeth to the outside of the wheel to interupt the photointerupter. This was unfortunate because we did not realize our mistake until after we tested the wheel and saw that it kept cliping the photointerupter. A more thorough review of possible issues with our design would have fixed this problem. It also teaches us the importance of prototypes. If we had considered multiple wheel design at first we would have had alternate solutions that might have been better. Other than that the onshape design went very well. The box was the perfect size and looked very good. 
 
 
 
