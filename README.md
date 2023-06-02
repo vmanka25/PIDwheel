@@ -38,7 +38,16 @@ To create a box that utalizes PID to control the speed of a motor using and pote
 ## Code and Wiring
 
 ### Goal
+
 **Code:** The code is written to first use a potentiometer to control the speed of a dc motor. Then a photointerupter tracks when the each hole in the wheel passes by looking if the state changes. When the state changes the time function is called and logged as time1. When the state changes again a second time is logged and the two are subtracted giving us deltatime. Then using a simple conversion we can calculate RPM. A list was added for fun to add some creativity to the project. Each time an RPM value is calculated it is added to the list. The sum of the list is taken and divided by the length of the list. This calculates average RPM.
+
+### Wiring Diagram
+
+<img src="https://user-images.githubusercontent.com/71350243/236315095-ca4b90ab-fd54-43c9-aba5-c2049de8e78e.png" alt="wiring2" style="width:318px;">
+
+### Code Brainstorming
+
+<img src="https://github.com/vmanka25/PIDwheel/blob/main/Media/20230601_214704.jpg?raw=true" alt="wiring2" style="width:318px;">
 
 ### Code
 
@@ -103,14 +112,6 @@ while True:
             
             
 ```
-
-### Wiring Diagram
-
-<img src="https://user-images.githubusercontent.com/71350243/236315095-ca4b90ab-fd54-43c9-aba5-c2049de8e78e.png" alt="wiring2" style="width:318px;">
-
-### Code Brainstorming
-
-<img src="https://github.com/vmanka25/PIDwheel/blob/main/Media/20230601_214704.jpg?raw=true" alt="wiring2" style="width:318px;">
 
 ### Reflection
 
