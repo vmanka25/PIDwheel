@@ -54,8 +54,9 @@ Code outline I used to help write the code
 ### Code
 
 ``` python
-#Vincent and Zachary 5/15/2023
-#Wheel code 
+#Vincent and Zachary 
+#5/15/2023
+#PID wheel code using a potentiometer
 
 import board
 import time
