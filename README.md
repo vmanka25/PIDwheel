@@ -46,6 +46,7 @@ To create a box that utalizes PID to control the speed of a motor using and pote
 
 <img src="https://user-images.githubusercontent.com/71350243/236315095-ca4b90ab-fd54-43c9-aba5-c2049de8e78e.png" alt="wiring2" style="width:1000px;">
 This is our wiring diagram. The black box with the N is a transistor wich regulates power heading to our Motor and control it. The black tube with the grey line is the diode which serves as a one way switch for the corrent to the motor. The batteries use one switch to turn them on and one is used to power the motor and the other the metro, LCD, photointerupter, and potentiometer. 
+
 ### Code Brainstorming
 
 <img src="https://github.com/vmanka25/PIDwheel/blob/main/Media/20230601_214704.jpg?raw=true" alt="wiring2" style="width:318px;">
