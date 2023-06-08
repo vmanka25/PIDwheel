@@ -151,8 +151,9 @@ The design of the box was very easy because we both had extensive experience wit
 
 ## Photos and Videos
 
-![IMG_3673](https://github.com/vmanka25/PIDwheel/assets/71350243/e19fd326-9d27-43d9-aee7-a17cd31ffafe)
-![PIDBox](https://github.com/vmanka25/PIDwheel/assets/71350243/379d1565-033a-4d63-a4d6-24e259c003b0) |
+| Image of finished project | Video of working box |
+| ----- | ----- |
+| <img src="https://github.com/vmanka25/PIDwheel/assets/71350243/e19fd326-9d27-43d9-aee7-a17cd31ffafealt" alt="wiring2" style="width:400px;"> | <img src="https://github.com/vmanka25/PIDwheel/assets/71350243/379d1565-033a-4d63-a4d6-24e259c003b0alt" alt="wiring2" style="width:300px;"> |
 
 ## Construction
 
