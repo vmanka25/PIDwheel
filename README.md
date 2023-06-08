@@ -7,9 +7,9 @@
 * [Construction](#construction)
 * [Reflection](#reflection)
 ## Planning
-### Objective 
-To create a box that utalizes PID to control the speed of a motor using and potentiometer. A photointerupter will also be used to calculate the speed of the wheel which will be displayed on an LCD. 
+### Objective
 
+To create a box that utalizes PID to control the speed of a motor using and potentiometer. A photointerupter will also be used to calculate the speed of the wheel which will be displayed on an LCD. We will know if our project is succesful if the wheel spins at a speed controlled by PID using a potetentiometer. 
 
 ### Materials Used
 
