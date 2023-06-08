@@ -3,8 +3,8 @@
 * [Planning](#planning)
 * [Onshape Design](#onshape-design)
 * [Code and Wiring](#code-and-wiring)
-* [Photos and Videos](#photos-and-videos)
 * [Construction](#construction)
+* [Photos and Videos](#photos-and-videos)
 * [Reflection](#reflection)
 ## Planning
 ### Objective
@@ -43,11 +43,13 @@ To create a box that utalizes PID to control the speed of a motor using and pote
 
 ### Wiring Diagram
 
-<img src="https://user-images.githubusercontent.com/71350243/236315095-ca4b90ab-fd54-43c9-aba5-c2049de8e78e.png" alt="wiring2" style="width:1272px;">
+<img src="https://user-images.githubusercontent.com/71350243/236315095-ca4b90ab-fd54-43c9-aba5-c2049de8e78e.png" alt="wiring2" style="width:1000px;">
+Wiring Diagram Image
 
 ### Code Brainstorming
 
 <img src="https://github.com/vmanka25/PIDwheel/blob/main/Media/20230601_214704.jpg?raw=true" alt="wiring2" style="width:318px;">
+Code outline I used to help write the code
 
 ### Code
 
@@ -130,6 +132,7 @@ while True:
 ### Sketches
 
 <img src="https://github.com/vmanka25/PIDwheel/assets/71350243/eb5f7142-6a74-4f68-a9e0-c87e311d4c47" alt="wiring2" style="width:400px;">
+Brainstorming possible designs for the box
 
 ### Goal 
 
@@ -149,15 +152,16 @@ The design of the box was very easy because we both had extensive experience wit
 | ----- | ------ |
 | <img src="https://github.com/vmanka25/PIDwheel/blob/main/Media/Assembly%202.png?raw=true" alt="wiring2" style="width:400px;"> | <img src="https://github.com/vmanka25/PIDwheel/blob/main/Media/Assembly%202%20(1).png?raw=true" alt="wiring2" style="width:400px;"> |
 
+
+## Construction
+
+We had some issues in the construction of our contraption. The first issue we had is that the divider for our box had tabs that didn't fit so we had to sand down the tabs. Our biggest issue was that our wheel spun with a wobble. We attempted to fix this many times with 3d printing parts and using hotglue. our final solution was a laser cut washer we glued to the wheel to keep it level. we made some other mistakes like designing the wheel with spokes that hit the photointeruptor. we fixed this problem by cutting a wheel with a smooth perimeter. We also made the wheel clear which wouldn't have worked with the photointeruptor. we fixed that by making the wheel black.
+
 ## Photos and Videos
 
 | Image of finished project | Video of working box |
 | ----- | ----- |
 | <img src="https://github.com/vmanka25/PIDwheel/assets/71350243/e19fd326-9d27-43d9-aee7-a17cd31ffafealt" alt="wiring2" style="width:400px;"> | <img src="https://github.com/vmanka25/PIDwheel/assets/71350243/379d1565-033a-4d63-a4d6-24e259c003b0alt" alt="wiring2" style="width:300px;"> |
-
-## Construction
-
-We had some issues in the construction of our contraption. The first issue we had is that the divider for our box had tabs that didn't fit so we had to sand down the tabs. Our biggest issue was that our wheel spun with a wobble. We attempted to fix this many times with 3d printing parts and using hotglue. our final solution was a laser cut washer we glued to the wheel to keep it level. we made some other mistakes like designing the wheel with spokes that hit the photointeruptor. we fixed this problem by cutting a wheel with a smooth perimeter. We also made the wheel clear which wouldn't have worked with the photointeruptor. we fixed that by making the wheel black.
 
 ## Reflection
 
