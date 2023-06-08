@@ -11,6 +11,17 @@
 
 To create a box that utalizes PID to control the speed of a motor using and potentiometer. A photointerupter will also be used to calculate the speed of the wheel which will be displayed on an LCD. We will know if our project is succesful if the wheel spins at a speed controlled by PID using a potetentiometer. 
 
+| **Critreria** | **Constraints** |
+| ----- | ----- |
+| The motor must turn using a potentiometer | Time |
+| The LCD must display RPM | Dont use uneseccary materials |
+| PID used to adjust speed | |
+
+| **Potential Obstacles** | **Possible Solution** |
+| ------ | ------ |
+| How to mount the acrylic wheel onto dc motor shaft | make a 3d printed braket connecting the acrylic wheel to the motor shaft |
+| We dont know how to use PID | Use google and other resources to learn |
+| How to keep the wheel level to prevent collision with the photointerupter | Design multiple wheel prototypes and see which one works best. |
 
 ### Milestones
 
@@ -174,12 +185,6 @@ while True:
 | Code Reflection written by Zach | Wiring Reflection written by Vincent |
 | ------ | ------ |
 | Writing the code was something I was not looking forward to for this project. Not that I would not be able to, but coding is not always the most interesting to me. Writing this code was far different. It was so much fun and it was the most I had ever learned about a coding language in one project. There were some parts that were rough, but I learned valuable lessons along the way. The first is the usefullness of writing out your program in pseudo code. This helped me organize my thoughts and keep the order of each part straight. Next, I learned how important it is to check your indentations. This code has several embedded if statements and initially, I had things in embedded in if statements that changed the variable to allow me to enter that if statement. This made it impossible to enter the statement and my code was rendered useless. Finally, I learned several minor things, like how code libraries work when implementing the PID and list, and append for calculating average RPM. In conclusion, although we did not have time to fully tweak the PID values the code of this project was very enjoyable and taught me so much. |The wiring wasn’t too hard, just tedious. To wire everything I just combined all of the wirings from my previous projects. I learned a lot too, like how to wire on a mini breadboard. I also learned that you can use a switch to turn off the ground from multiple batteries, which creates one switch that can turn off multiple separate batteries. The hardest part was keeping things orderly but I got it done. |
-
-| **Potential Obstacles** | **Possible Solution** |
-| ------ | ------ |
-| How to mount the acrylic wheel onto dc motor shaft | make a 3d printed braket connecting the acrylic wheel to the motor shaft |
-| We dont know how to use PID | Use google and other resources to learn |
-| How to keep the wheel level to prevent collision with the photointerupter | Design multiple wheel prototypes and see which one works best. |
 
 ## Onshape Design
 
