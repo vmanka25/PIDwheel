@@ -168,7 +168,7 @@ while True:
             
 ```
 
-### Reflection
+### Code and Wiring Reflection
 
 | Code Reflection written by Zach | Wiring Reflection written by Vincent |
 | ------ | ------ |
@@ -195,7 +195,7 @@ The goal of our onshape design was to create a box that would hold a metro, batt
 
 [Onshape Link](https://cvilleschools.onshape.com/documents/e3e9160c74c2f05d611e2350/w/8f77f1dc3328ca2505c3c685/e/943fa50f182a6ab5cfa60442?renderMode=0&uiState=64515a94813904144c09a155)
 
-### Reflection
+### Onshape Reflection
 
 The design of the box was very easy because we both had extensive experience with onshape and were good at it. We finished the main design of the box multiple days ahead of schedule. The one oversight we had with our design was not making the wheel solid with cut out holes. Initially we added teeth to the outside of the wheel to interupt the photointerupter. This was unfortunate because we did not realize our mistake until after we tested the wheel and saw that it kept cliping the photointerupter. A more thorough review of possible issues with our design would have fixed this problem. It also teaches us the importance of prototypes. If we had considered multiple wheel design at first we would have had alternate solutions that might have been better. Other than that the onshape design went very well. The box was the perfect size and looked very good.
 
@@ -216,6 +216,6 @@ We had some issues in the construction of our contraption. The first issue we ha
 | ----- | ----- |
 | <img src="https://github.com/vmanka25/PIDwheel/assets/71350243/e19fd326-9d27-43d9-aee7-a17cd31ffafealt" alt="wiring2" style="width:400px;"> | <img src="https://github.com/vmanka25/PIDwheel/assets/71350243/379d1565-033a-4d63-a4d6-24e259c003b0alt" alt="wiring2" style="width:300px;"> |
 
-## Reflection
+## Final Project Reflection
 
-Overall this project wasn't too hard and we learned a lot. designing our box and wheel on onshape was by far the easiest part. We made some mistakes with the design of the wheel and some of the fittings on the box but we fixed them. assembling the box was also pretty easy with the exception of our wheel which took many attempts to fix its wobble and other issues. Coding was probably the most difficult part of this project but zach learned alot and wrote code that works. even though we didn't have enough time to tweak the values of our PID we think it was a sucess. In the end we built a motor whose speed was controlled using a potentiometer.
+Overall this project wasn't too hard and we learned a lot. designing our box and wheel on onshape was by far the easiest part. We made some mistakes with the design of the wheel and some of the fittings on the box but we fixed them. assembling the box was also pretty easy with the exception of our wheel which took many attempts to fix its wobble and other issues. Coding was probably the most difficult part of this project but zach learned alot and wrote code that works. We had one big issue at the end that we beilieve is caused by [motor noise](https://www.pololu.com/docs/0J15/9). this noise is caused by the brushes of the motor bouncing and can causes noise in the wires and can induce noise into other wires. we believe that the noise from our motor caused our LCD to freeze after a couple seconds of the box working. If we had more time a good way to supress motor noise is to solder capacitors across the terminals.
