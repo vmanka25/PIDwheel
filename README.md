@@ -11,18 +11,6 @@
 
 To create a box that utalizes PID to control the speed of a motor using and potentiometer. A photointerupter will also be used to calculate the speed of the wheel which will be displayed on an LCD. We will know if our project is succesful if the wheel spins at a speed controlled by PID using a potetentiometer. 
 
-### Materials Used
-
-+ Acrylic
-+ PLA
-+ 1 DC motor
-+ 1 Metro M4
-+ 1 Photointerrupter
-+ 1 Potentiometer
-+ LED
-+ 1 9v Battery
-+ 1 LCD 
-+ 1 Switch
 
 ### Milestones
 
@@ -35,6 +23,19 @@ To create a box that utalizes PID to control the speed of a motor using and pote
 | 5/28/23 | Get project working with PID | We were successful in getting the project working |
 | 6/2/23 | Final project done with documentation | Project and documentation was completed by the due date |
 
+### Materials Used
+
++ Acrylic
++ PLA
++ 1 DC motor
++ 1 Metro M4
++ 1 Photointerrupter
++ 1 Potentiometer
++ LED
++ 1 9v Battery
++ 1 LCD 
++ 1 Switch
++ 
 ## Code and Wiring
 
 ### Goal
@@ -44,8 +45,7 @@ To create a box that utalizes PID to control the speed of a motor using and pote
 ### Wiring Diagram
 
 <img src="https://user-images.githubusercontent.com/71350243/236315095-ca4b90ab-fd54-43c9-aba5-c2049de8e78e.png" alt="wiring2" style="width:1000px;">
-Wiring Diagram Image
-
+This is our wiring diagram. The black box with the N is a transistor wich regulates power heading to our Motor and control it. The black tube with the grey line is the diode which serves as a one way switch for the corrent to the motor. The batteries use one switch to turn them on and one is used to power the motor and the other the metro, LCD, photointerupter, and potentiometer. 
 ### Code Brainstorming
 
 <img src="https://github.com/vmanka25/PIDwheel/blob/main/Media/20230601_214704.jpg?raw=true" alt="wiring2" style="width:318px;">
